@@ -7,8 +7,9 @@ from musician.views import MusicianViewSet
 router = routers.DefaultRouter()
 
 router.register(
-    "manage",
-    MusicianViewSet
+    "musician",
+    MusicianViewSet,
+    basename="manage"
 )
 
 urlpatterns = [
