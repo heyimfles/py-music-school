@@ -7,7 +7,7 @@ from musician.views import MusicianViewSet
 router = routers.DefaultRouter()
 
 router.register(
-    "musician",
+    "manager-list",
     MusicianViewSet
 )
 
