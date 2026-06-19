@@ -15,7 +15,6 @@ urlpatterns = [
     path(
         "",
         include(router.urls),
-        name="manage",
     ),
 ]
 
