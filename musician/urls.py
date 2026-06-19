@@ -7,7 +7,7 @@ from musician.views import MusicianViewSet
 router = routers.DefaultRouter()
 
 router.register(
-    "manage-list",
+    "musician",
     MusicianViewSet
 )
 
@@ -15,7 +15,7 @@ urlpatterns = [
     path(
         "",
         include(router.urls),
-        name="manage-list",
+        name="manage",
     ),
 ]
 
